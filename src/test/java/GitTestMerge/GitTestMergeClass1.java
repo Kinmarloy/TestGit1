@@ -7,6 +7,7 @@ public class GitTestMergeClass1 {
         int n = 2;
         int x = 3;
         String b = "234";
+        String y = "sfdfsdf";
 
         System.out.println( a + b + n);
         System.out.println( a + b + x);
