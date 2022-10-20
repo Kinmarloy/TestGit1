@@ -34,7 +34,7 @@ public class TextBoxTests {
         //можно для элементов id использовать css селектор через #
         // а для элементов class через . (точку)
         $("#userEmail").setValue("Viktor@vik.ru");
-        // $x("//input[@id='userEmail']").setValue("Viktor@vik.ru");
+        $x("//input[@id='userEmail']").setValue("Viktor@vik.ru");
 
         $x("//textarea[@id='currentAddress']").setValue("Cur adress here");
         $x("//textarea[@id='permanentAddress']").setValue("Perm adress here");
